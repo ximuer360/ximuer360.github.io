@@ -1,0 +1,85 @@
+/* 
+    Template Name: Bensen
+    Author: Your Name
+    Version: 1.0
+*/
+
+/* Large Device: 1200px */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* Normal Device: 992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* 添加样式... */
+}
+
+/* Tablet Device: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* 添加样式... */
+}
+
+/* Mobile Device: 320px */
+@media only screen and (max-width: 767px) {
+    /* 添加样式... */
+}
+
+/* 响应式布局调整 */
+@media only screen and (max-width: 991px) {
+    .hero-area {
+        padding: 100px 0 60px;
+    }
+    
+    .hero-content {
+        margin-bottom: 40px;
+    }
+    
+    .hero-image {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-area {
+        padding: 80px 0 40px;
+    }
+    
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+    }
+    
+    .hero-image {
+        max-width: 100%;
+    }
+    
+    .feature-box {
+        margin-bottom: 30px;
+    }
+    
+    .pricing-box {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    
+    .section-title h2 {
+        font-size: 28px;
+    }
+    
+    .feature-image {
+        aspect-ratio: 4/3; /* 在更小的屏幕上调整比例 */
+    }
+}
