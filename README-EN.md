@@ -1,6 +1,7 @@
 ## Hi there ,this is my homepage👋
 https://ximuer360.github.io/ximuer360/
-[English Version](./README-EN.md)
+
+[中文版本](./README.md)
 ### Hiiiii I'am ximuer,occasionally doing something interesting.
 > Share knowledge, search for resources.
 
